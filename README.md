@@ -1,15 +1,24 @@
+
+[![Build Status](https://travis-ci.org/yinanfang/GoldenCompass.png?branch=master)](https://travis-ci.org/yinanfang/GoldenCompass)
+
+
 # GoldenCompass-node guidline
 
 Restructure the app - https://github.com/madhums/node-express-mongoose-demo
-Webfaction auto deploy
+Continuous Deployment on Webfaction
   - https://www.jamestease.co.uk/blether/deploying-express-nodejs-app-to-webfaction-using-git-hooks
   - http://www.raymonschouwenaar.nl/deploy-website-git-webhosting-webfaction-github-bitbucket/
   - https://gist.github.com/exclsr/8047140
+Continuous Integration with Travis CI and auto deployment after success
+  - https://gist.github.com/lukewpatterson/4242707
+  - http://www.jvandemo.com/how-to-use-travis-ci-to-automatically-deploy-a-harpjs-application-to-github-pages/#
 https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens
 Check if JWT decode correctly. Add a certain answer. Add general format. Separate db queries to db.js. Take out all ps before return
 Check password validity. char limit, IP?
 Save a default icon in file. After send back registration, set the default icon and request the jdenticon from Heroku server. Then change the icon path. Add a row in the user table
 Try Identicon. Ask why it's not popular
+Single page: page.js
+Auto deployment: flight plan github??
 Express:
   - static
   - routing restriction, callback require - http://expressjs.com/api.html#app.all
