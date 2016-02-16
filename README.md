@@ -2,6 +2,17 @@
 [![Build Status](https://travis-ci.org/yinanfang/GoldenCompass.png?branch=master)](https://travis-ci.org/yinanfang/GoldenCompass)
 
 
+# Goal
+- Language: ES6
+- Backend: Express! -> Meteor?
+- Frontend: React
+- Architecture: Redux
+- Bundler: Gulp! -> Webpack?
+- Tutorial:
+  - http://marmelab.com/blog/2015/11/27/meteor-webpack-react-redux.html
+  - http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/
+  - https://github.com/kriasoft/react-starter-kit
+
 # GoldenCompass-node guidline
 
 Restructure the app - https://github.com/madhums/node-express-mongoose-demo
