@@ -8,10 +8,11 @@
 - Frontend: React
 - Architecture: Redux
 - Bundler: Gulp! -> Webpack?
+- Folder structure: https://github.com/kriasoft/react-starter-kit
 - Tutorial:
   - http://marmelab.com/blog/2015/11/27/meteor-webpack-react-redux.html
   - http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/
-  - https://github.com/kriasoft/react-starter-kit
+
 
 # GoldenCompass-node guidline
 
