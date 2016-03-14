@@ -94,7 +94,9 @@
     - routing restriction, callback require - http://expressjs.com/api.html#app.all
     - https - http://expressjs.com/api.html#app.listen
     - http://expressjs.com/api.html#res.send
-  - Better node require path: https://gist.github.com/branneman/8048520
+  - Better node require path
+    - https://gist.github.com/branneman/8048520
+    - http://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm
 - plugin:
   - time zone: https://github.com/samsonjs/strftime
   - multi-form: https://www.npmjs.com/package/multer
