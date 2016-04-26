@@ -3,17 +3,38 @@
 [![Build Status](https://travis-ci.org/yinanfang/GoldenCompass.png?branch=master)](https://travis-ci.org/yinanfang/GoldenCompass)
 
 # Goal
+
+- Rename project to Compass-node, Compass-iOS, user:compass
 - Language: ES6
-- Backend: Express! -> Meteor-
+- Backend: Express
 - Frontend: React
-- Architecture: Redux and immutable-js: http://www.ackmanndickenson.com/2015/11/blog-redux-and-immutable-js-take-center-stage/
-- Bundler: Gulp! -> Webpack-
-- Folder structure: https://github.com/kriasoft/react-starter-kit, polymer-starter-kit
-- Tutorial:
+- Build Tool: webpack
+  - production/development env: https://www.youtube.com/watch?v=9kJVYpOqcVU
+- Starter
+  - https://github.com/kriasoft/react-starter-kit, polymer-starter-kit
+  - Used to setup initial express structure(reference hackerthon starter repo)
+    - http://www.dampmann.com/2014/09/nodejs-mongodb-jwt-bcrypt-and.html
+    - React-Redux-Webpack video tutorial
+      - https://www.youtube.com/watch?v=CAZZN1gOjoI&list=PLQDnxXqV213JJFtDaG0aE9vqvp6Wm7nBg&index=3
+  - GraphQL server setup: https://www.youtube.com/watch?v=DNPVqK_woRQ
+  - Demo:
+    - http://swapi.graphene-python.org/
+    - http://graphql-swapi.parseapp.com/
+- Design decision
+  - Separate dbdcapital database, routing, and web page serving
+    - DBDCapital-node, DBDCapital-iOS, DBDCapital-Android
+  - API structure like FB Graph API
+- Architecture: Redux and immutable-js:
+  - Learn Redux from its creator: https://github.com/reactjs/redux
+  - http://www.ackmanndickenson.com/2015/11/blog-redux-and-immutable-js-take-center-stage/
+- Long Tutorial:
   - http://marmelab.com/blog/2015/11/27/meteor-webpack-react-redux.html
   - http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/
-  - Used to setup initial express structure
-    - http://www.dampmann.com/2014/09/nodejs-mongodb-jwt-bcrypt-and.html
+  - React ecosystem: https://www.toptal.com/react/navigating-the-react-ecosystem
+    - Example app: https://github.com/tomaash/react-example-filmdb
+    - webpack require assets like CSS
+
+
 
 # To-dos
 - git
@@ -97,6 +118,12 @@
   - Better node require path
     - https://gist.github.com/branneman/8048520
     - http://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm
+  - Separate folder for static files: image, video, audio, font,
+    - image.static.goldencompass.com/dbdcapital/product?id=123&part=3445
+    - image.static.goldencompass.com/dbdcapital/user/profile_picture?id=123&part=3445&resolution=128
+  - Serverside Rendering
+    - Use React Router instead of Express routerjs for server side routing: http://stackoverflow.com/questions/28553904/client-routing-using-react-router-and-server-side-routing/28558545#28558545
+    - Benefits: http://stackoverflow.com/questions/30626410/server-side-rendering-with-react-react-router-and-express
 - plugin:
   - time zone: https://github.com/samsonjs/strftime
   - multi-form: https://www.npmjs.com/package/multer
